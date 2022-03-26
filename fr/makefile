@@ -1,0 +1,2 @@
+run: 
+	python CorvoNG.py
