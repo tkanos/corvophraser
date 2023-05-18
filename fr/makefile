@@ -1,2 +1,2 @@
 run: 
-	python CorvoNG.py
+	python3 CorvoNG.py

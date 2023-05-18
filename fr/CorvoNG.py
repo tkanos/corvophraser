@@ -125,7 +125,7 @@ def substitute_noun(genre):
 	p=nouns[i][2]	# prefix ?
 	withAdj=False
 	
-	if genre>0 and genre<>g :
+	if genre>0 and genre!=g :
 		substitute_noun(genre)
 	else:
 		if p==1:
@@ -149,8 +149,8 @@ def check_voyelle(v):
 	return (s.find(v[0])>=00)
 
 def main():
-	print "Corvophraseur (New Generation)",__version__
-	print "---------------------------------------------"
+	print("Corvophraseur (New Generation)",__version__)
+	print("---------------------------------------------")
 
 	p0=get_gabarit()
 	p1=""
@@ -181,7 +181,7 @@ def main():
 		else:
 			p1=" ".join((p1,w))
 
-	print p1		
+	print(p1)		
 	
 if __name__=="__main__":
 	main()

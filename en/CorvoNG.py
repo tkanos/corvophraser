@@ -127,7 +127,7 @@ def substitute_noun(genre):
 	p=nouns[i][2]	# prefix ?
 	withAdj=False
 	
-	if genre>0 and genre<>g :
+	if genre>0 and genre!=g :
 		substitute_noun(genre)
 	else:
 		if p==1:
@@ -170,7 +170,7 @@ def main():
 		else:
 			p1=" ".join((p1,w))
 
-	print p1		
+	print(p1)		
 	
 if __name__=="__main__":
 	main()
