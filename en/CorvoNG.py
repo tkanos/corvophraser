@@ -15,7 +15,7 @@
 """
 
 __author__="Pierre-Alain Dorange (pdorange@mac.com)"
-__translator_ = "tkanos"
+__translator__ = "tkanos"
 __date__="6 avril 2010"
 __copyright__="Copyright 2010, Pierre-Alain Dorange"
 __license__="BSD"
